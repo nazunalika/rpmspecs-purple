@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright 2015 Jiri Eischmann <eischmann@redhat.com>
+-->
+<component type="addon">
+  <id>purple-plugin-pack</id>
+  <extends>pidgin.desktop</extends>
+  <name>Purple Plugin Pack</name>
+  <summary>A collection of plugins for purple-based clients such as Pidgin</summary>
+  <url type="homepage">https://keep.imfreedom.org/pidgin/purple-plugin-pack/</url>
+  <url type="bugtracker">https://issues.imfreedom.org/issues/PLUGINPACK</url>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>GPL-2.0+</project_license>
+  <updatecontact>vitaly@easycoding.org</updatecontact>
+</component>
