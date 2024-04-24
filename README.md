@@ -1,6 +1,8 @@
 # rpmspecs-purple
 
-This is the RPM spec files that I have created for pidgin. I am not affiliated with pidgin's development.
+This is the RPM spec files that I have inherited or created for pidgin. I am not affiliated with pidgin's development.
+
+Some of these specs were brought in from Fedora, repurposed, and changed as needed.
 
 ## Information
 
