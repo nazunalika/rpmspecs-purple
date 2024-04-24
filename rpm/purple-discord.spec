@@ -14,6 +14,7 @@ URL:           https://github.com/EionRobb/%{name}
 Source0:       %{url}/archive/%{commit}.tar.gz
 
 BuildRequires: pkgconfig(glib-2.0)
+BuildRequires: pkgconfig(libqrencode)
 BuildRequires: pkgconfig(json-glib-1.0)
 BuildRequires: pkgconfig(purple)
 BuildRequires: pkgconfig(zlib)

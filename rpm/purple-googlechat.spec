@@ -42,7 +42,7 @@ Adds pixmaps, icons and smileys for Google Chat protocol implemented by
 purple-googlechat.
 
 %prep
-%autosetup -n %{name}-%{commit0}
+%autosetup -n %{name}-%{commit}
 
 # fix W: wrong-file-end-of-line-encoding
 sed -i -e "s,\r,," README.md
