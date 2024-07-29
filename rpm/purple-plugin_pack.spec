@@ -1,4 +1,5 @@
-%global purplename purple-plugin-pack
+%global purplename    purple-plugin-pack
+%global purpleplugver 2_8_0
 
 Name:           purple-plugin_pack
 Version:        2.8.0
@@ -7,7 +8,7 @@ Release:        8%{?dist}.nalika
 License:        GPL-2.0-or-later
 Summary:        A set of plugins for libpurple, pidgin, and finch
 URL:            https://keep.imfreedom.org/pidgin/%{purplename}
-Source0:        https://dl.bintray.com/pidgin/releases/%{purplename}-%{version}.tar.xz
+Source0:        https://keep.imfreedom.org/pidgin/purple-plugin-pack/archive/pp_%{purpleplugver}.tar.gz
 Source1:        %{purplename}.metainfo.xml
 
 BuildRequires:  pkgconfig(enchant-2)
