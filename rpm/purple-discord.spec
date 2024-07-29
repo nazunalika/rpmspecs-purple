@@ -1,12 +1,12 @@
 %global purplename discord
 
-%global commit b9253821e106f070def20e5cf9b4ad6aa4a812ac
+%global commit 7091a0e4a5d98027cea682dd8a5b4a15876a2654
 %global shortcommit %(c=%{commit}; echo ${c:0:7})
-%global date 20240424
+%global date 20240729
 
 Name:          purple-%{purplename}
 Version:       0
-Release:       38.%{date}git%{shortcommit}%{?dist}.nalika
+Release:       39.%{date}git%{shortcommit}%{?dist}.nalika
 
 License:       GPL-3.0-or-later
 Summary:       Discord plugin for libpurple
@@ -62,6 +62,9 @@ sed -i -e "s,\r,," README.md
 %{_datadir}/pixmaps/pidgin/protocols/*/%{purplename}.png
 
 %changelog
+* Mon Jul 29 2024 Louis Abel <tucklesepk@gmail.com> - 0-39.20240729git.nalika
+- Rebuild on latest commit
+
 * Wed Apr 24 2024 Louis Abel <tucklesepk@gmail.com> - 0-38.20240424git.nalika
 - Rebuild for Fedora based on original spec
 
